@@ -11,7 +11,7 @@ let age = document.getElementById("age").value;
 let choix = document.getElementById("choix").value;
 if(age == 'pizza'){
     let result2="";
-    result = '<img src="dog.gif" id="dog" alt="dog">';
+    result = '<img src="img/dog.gif" id="dog" alt="dog">';
     document.getElementById("result2").innerHTML = "on s'en fout, les pizzas c'est la vie!";
     document.getElementById("result").innerHTML = result;
 } else if(age > 999){
