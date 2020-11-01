@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="planete.css">
+    <title>Document</title>
+  
+</head>
+<body>
+    <header>
+        <h1 align="center">Calcul de l'age et/ou du poids selon la planète</h1>
+    </header>
+    <center>
+        <br>
+        <div id="allBlocks">
+            <div id="firstBlock">
+                <p style="font-size:20px;">Votre age en secondes, en années ou en PIZZA (essayes avec pizza)</p>
+                <input type="text" id="age" placeholder="Votre Age" required>
+                <p>Choisissez une planète du système solaire:</p>
+                <select id="choix">
+                    <option value="">--choix de la planete--</option>
+                    <option value="Terre">Terre</option>
+                    <option value="Mercure">Mercure</option>
+                    <option value="Venus">Venus</option>
+                    <option value="Mars">Mars</option>
+                    <option value="Jupiter">Jupiter</option>
+                    <option value="Saturne">Saturne</option>
+                    <option value="Uranus">Uranus</option>
+                    <option value="Neptune">Neptune</option>
+                    <option value="Pluton">Pluton</option>
+                </select>
+                <div class="button">
+                    <button id="valider">Valider</button>
+                    <button id="reset">Effacer</button>
+                    <marquee behavior="alternate">
+                        <p id="result2"></p>
+                        <p id="result"></p>
+                    </marquee>
+                </div>
+            </div>
+            <div id="secondBlock">
+                <p style="font-size:20px;">Votre poids en kg</p>
+                <input type="text" id="poids" placeholder="Votre Poids" required>
+                <p>Choisissez une planète du système solaire:</p>
+                <select id="choix2">
+                    <option value="">--choix de la planete--</option>
+                    <option value="Terre">Terre</option>
+                    <option value="Mercure">Mercure</option>
+                    <option value="Venus">Venus</option>
+                    <option value="Mars">Mars</option>
+                    <option value="Jupiter">Jupiter</option>
+                    <option value="Saturne">Saturne</option>
+                    <option value="Uranus">Uranus</option>
+                    <option value="Neptune">Neptune</option>
+                    <option value="Pluton">Pluton</option>
+                </select>
+                <div class="button">
+                    <button id="valider2">Valider</button>
+                    <button id="reset2">Effacer</button>
+                    <marquee behavior="alternate">
+                        <p id="resultPoids"></p>
+                    </marquee>
+                </div>
+            </div>
+        </div>
+<script src="planete.js"></script>
+</body>
+</html>
